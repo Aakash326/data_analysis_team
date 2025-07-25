@@ -195,7 +195,7 @@ import litellm
 from litellm import completion
 
 # API Configuration
-GEMINI_API_KEY = "AIzaSyDloUkE9HfFg4ytufofLmxe3lmCVKZy8Dw"  # Replace with your actual API key
+GEMINI_API_KEY = ""  # Replace with your actual API key
 
 # Set environment variables (CrewAI looks for these)
 os.environ["GOOGLE_API_KEY"] = GEMINI_API_KEY
